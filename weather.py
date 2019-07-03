@@ -20,3 +20,5 @@ for c in cities:
 for k in sorted(d,key =lambda name: d[name]['main']['temp']):
     print(k,end='\t')
     print(d[k]['main']['temp']-273)
+
+    
